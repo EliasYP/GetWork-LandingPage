@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=M+PLUS+Rounded+1c:wght@300;500&family=Maven+Pro:wght@600&display=swap');
+:root{
+    --primary-red: #BF2C38;
+    --primary-white: #F2F2F2;
+    --gray-1:#A6A6A6;
+    --gray-2:#595959;
+    --black:#0D0D0D;
+    --font: "Anonymous Pro", monospace;
+    --heading-1-size: 2.5rem;
+    --heading-2-size: 2rem; 
+    --heading-3-size: 1.5rem;
+    --heading-4-size: 1.125rem;
+    --paragraph-size: 1rem;   
+    --small-text-size: 0.875rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, h1, h2, h3, h4, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--primary-white);
+    font-family: var(--font);
+    font-size: var(--paragraph-size);
+}
+
+.navbar-container{
+    display: flex;
+    padding: 0;
+    background-color: var(--primary-red);
+    color: var(--primary-white);
+    text-decoration: none;
+    transition: all 0.2s linear;
+    height: 85px;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+}
+
+header .logo{
+    cursor: pointer;
+}
+
+header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+header .logo img:hover{
+    transform: scale(1.2);
+}
+
+header .navbar-list{
+    list-style: none;
+}
+
+header .navbar-list li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+header .navbar-list li:hover{
+    transform: scale(1.1);
+}
+
+header .navbar-list a{
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;    
+}
+
+header .navbar-list li a:hover{
+    color: var(--black);
+}
+
+#sign-in{
+    padding: 15px 50px;
+    color: var(--black);
+    background-color: var(--primary-white);
+    border-radius: 50px;
+}
