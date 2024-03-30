@@ -31,14 +31,3 @@ function validarFormulario() {
         console.log(JSON.stringify(userData, null, 2));
     }
 }
-
-function goBack() {
-    window.history.back();
-}
-
-
-
-
-
-
-

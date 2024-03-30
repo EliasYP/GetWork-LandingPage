@@ -28,6 +28,9 @@ body {
     max-width: 600px;
     width: 90%;
 }
+.back-button{
+    font-size: 15px;
+}
 
 .registration .title {
     font-size: 32px;
